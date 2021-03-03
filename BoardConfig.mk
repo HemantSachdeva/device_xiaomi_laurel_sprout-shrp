@@ -57,12 +57,8 @@ BOARD_KERNEL_CMDLINE += skip_override androidboot.fastboot=1
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_RAMDISK_OFFSET := 0x01000000
-TARGET_PREBUILT_KERNEL := device/xiaomi/laurel_sprout/prebuilt/zImage
-BOARD_PREBUILT_DTBOIMAGE := device/xiaomi/laurel_sprout/prebuilt/dtbo.img
-BOARD_KERNEL_SEPARATED_DTBO := true
-BOARD_INCLUDE_RECOVERY_DTBO := true
+TARGET_PREBUILT_KERNEL := device/xiaomi/laurel_sprout/prebuilt/Image.gz-dtb
 BOARD_BOOTIMG_HEADER_VERSION := 1
-BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --tags_offset $(BOARD_KERNEL_TAGS_OFFSET) --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072

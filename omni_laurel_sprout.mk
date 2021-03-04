@@ -26,6 +26,9 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Inherit from laurel_sprout device
 $(call inherit-product, device/xiaomi/laurel_sprout/device.mk)
 
+# Dependencies 
+ALLOW_MISSING_DEPENDENCIES := true
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := laurel_sprout
 PRODUCT_NAME := omni_laurel_sprout

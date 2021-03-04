@@ -116,6 +116,8 @@ SHRP_INTERNAL := /sdcard
 SHRP_OTG := /usbotg
 SHRP_FLASH := 1
 SHRP_AB := true
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A/B
 
 # TWRP Configuration
 TW_THEME := portrait_hdpi

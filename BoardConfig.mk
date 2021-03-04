@@ -130,6 +130,17 @@ RECOVERY_INSTALLER_PATH := device/xiaomi/laurel_sprout/installer
 TW_INCLUDE_REPACKTOOLS := true
 TW_USE_TOOLBOX := true
 
+# SHRP Configuration
+SHRP_PATH := device/xiaomi/laurel_sprout
+SHRP_MAINTAINER := HemantSachdeva
+SHRP_DEVICE_CODE := laurel_sprout
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /sdcard1
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usbotg
+SHRP_FLASH := 1
+SHRP_AB := true
+
 # Encryption
 PLATFORM_SECURITY_PATCH := 2025-12-31
 PLATFORM_VERSION := 16.1.0

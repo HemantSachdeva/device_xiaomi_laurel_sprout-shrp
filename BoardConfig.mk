@@ -106,6 +106,17 @@ BOARD_USES_QCOM_FBE_DECRYPTION := true
 # Treble
 BOARD_VNDK_VERSION := current
 
+# SHRP Configuration
+SHRP_PATH := device/xiaomi/laurel_sprout
+SHRP_MAINTAINER := HemantSachdeva
+SHRP_DEVICE_CODE := laurel_sprout
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /sdcard1
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usbotg
+SHRP_FLASH := 1
+SHRP_AB := true
+
 # TWRP Configuration
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true

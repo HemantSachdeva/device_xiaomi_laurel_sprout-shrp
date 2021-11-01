@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_laurel_sprout.mk
+    $(LOCAL_DIR)/shrp_laurel_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_laurel_sprout-user \
-    twrp_laurel_sprout-userdebug \
-    twrp_laurel_sprout-eng
+    shrp_laurel_sprout-user \
+    shrp_laurel_sprout-userdebug \
+    shrp_laurel_sprout-eng

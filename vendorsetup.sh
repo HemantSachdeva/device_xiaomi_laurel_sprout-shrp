@@ -6,3 +6,5 @@
 #
 
 export ALLOW_MISSING_DEPENDENCIES=true
+rm -rf system/update_engine
+git clone https://github.com/iHemal/android_system_update_engine -b android-11 system/update_engine
